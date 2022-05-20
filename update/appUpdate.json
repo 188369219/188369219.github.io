@@ -1,6 +1,6 @@
 {
-	"versionCode":228,
-    "versionName":"1.0.228.220520",
+	"versionCode":229,
+    "versionName":"1.0.229.220521",
     "updateDescription":"1、优化检查更新逻辑<br>2、优化播放时系统状态栏<br>3、修复已知问题",
     "updateType":0,
     "downloadUrl":"https://dldir1.qq.com/weixin/android/weixin8022android2140_arm64.apk"
