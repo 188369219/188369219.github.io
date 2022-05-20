@@ -1,9 +1,8 @@
 [
   {
+    "isChecked": false,
     "isEnable": true,
-    "isExpanded": false,
     "isFind": false,
-    "isSelect": false,
     "lastUpdate": 1648832539269,
     "listOrder": 0,
     "ruleDetail": {
@@ -16,6 +15,10 @@
       "status": "class.video-info-item.3@text",
       "updateTime": ""
     },
+    "rulePlay": {
+      "urlRegex": "",
+      "webJs": ""
+    },
     "rulePlayList": {
       "lineList": "class.module-tab-content@class.module-tab-item",
       "lineName": "text",
@@ -23,10 +26,6 @@
       "playUrl": "href",
       "playUrlList": "tag.a",
       "playUrlName": "text"
-    },
-    "rulePlay":{
-      "urlRegex": "",
-      "webJs": ""
     },
     "ruleSearch": {
       "classify": "",
@@ -45,19 +44,18 @@
     "sourceUrl": "https://www.17skr.com"
   },
   {
-    "findUrl":"{\"url\":\"/index.php/vod/type/id/{{id}}/page/{{page}}.html\",\"classify\":[{\"id\":1,\"name\":\"电影\",\"subId\":[{\"name\":\"分类\",\"value\":[{\"id\":6,\"name\":\"动作片\"},{\"id\":7,\"name\":\"喜剧片\"},{\"id\":8,\"name\":\"爱情片\"},{\"id\":9,\"name\":\"科幻片\"},{\"id\":10,\"name\":\"恐怖片\"},{\"id\":11,\"name\":\"剧情片\"},{\"id\":12,\"name\":\"战争片\"}]}]},{\"id\":2,\"name\":\"电视剧\",\"subId\":[{\"name\":\"分类\",\"value\":[{\"id\":13,\"name\":\"国产剧\"},{\"id\":14,\"name\":\"港台剧\"},{\"id\":15,\"name\":\"日韩剧\"},{\"id\":16,\"name\":\"欧美剧\"}]}]},{\"id\":3,\"name\":\"综艺\"},{\"id\":4,\"name\":\"动漫\"},{\"id\":20,\"name\":\"哔哩哔哩\"}]}",
+    "findUrl": "{\"url\":\"/index.php/vod/type/id/{{id}}/page/{{page}}.html\",\"classify\":[{\"id\":1,\"name\":\"电影\",\"subId\":[{\"name\":\"分类\",\"value\":[{\"id\":6,\"name\":\"动作片\"},{\"id\":7,\"name\":\"喜剧片\"},{\"id\":8,\"name\":\"爱情片\"},{\"id\":9,\"name\":\"科幻片\"},{\"id\":10,\"name\":\"恐怖片\"},{\"id\":11,\"name\":\"剧情片\"},{\"id\":12,\"name\":\"战争片\"}]}]},{\"id\":2,\"name\":\"电视剧\",\"subId\":[{\"name\":\"分类\",\"value\":[{\"id\":13,\"name\":\"国产剧\"},{\"id\":14,\"name\":\"港台剧\"},{\"id\":15,\"name\":\"日韩剧\"},{\"id\":16,\"name\":\"欧美剧\"}]}]},{\"id\":3,\"name\":\"综艺\"},{\"id\":4,\"name\":\"动漫\"},{\"id\":20,\"name\":\"哔哩哔哩\"}]}",
+    "isChecked": false,
     "isEnable": true,
-    "isExpanded": false,
     "isFind": true,
-    "isSelect": false,
-    "lastUpdate": 1648832539289,
+    "lastUpdate": 1652807113209,
     "listOrder": 0,
     "ruleDetail": {
       "classify": "tag.dd.2@text",
       "director": "",
       "imageUrl": "class.vod_img@tag.img@src",
       "intro": "class.c05@text##剧情介绍：",
-      "name": "tag.h1.1@text",
+      "name": "tag.h1.1@text##(\\([^\\)]+\\))",
       "starring": "class.zhuyan@text",
       "status": "tag.dd.1@text",
       "updateTime": "tag.dd.0@text"
@@ -74,6 +72,10 @@
       "updateTime": "",
       "videoList": "class.list_su@tag.li"
     },
+    "rulePlay": {
+      "urlRegex": "(http[s]?):##https://jx.parwix.com:4433/player/?url=",
+      "webJs": "player_aaaa@(http[s]?):[^\\s]+(?=\",\"url_next)"
+    },
     "rulePlayList": {
       "lineList": "id.nucms_downlist@h2",
       "lineName": "text",
@@ -81,10 +83,6 @@
       "playUrl": "href",
       "playUrlList": "tag.li@tag.a",
       "playUrlName": "text"
-    },
-    "rulePlay":{
-      "urlRegex": "(http[s]?):##https://jx.parwix.com:4433/player/?url=",
-      "webJs": "player_aaaa@(http[s]?):[^\\s]+html(?=\",\"url_next)"
     },
     "ruleSearch": {
       "classify": "tag.span.1@text",
