@@ -71,7 +71,7 @@
       "videoList": "class.list_su@tag.li"
     },
     "rulePlay": {
-      "urlRegex": "(http[s]?):##https://jx.parwix.com:4433/player/?url=",
+      "urlRegex": "(http[s]?):##https://jx.parwix.com:4433/player/?url=$1",
       "webJs": "player_aaaa@(http[s]?):[^\\s]+(?=\",\"url_next)"
     },
     "rulePlayList": {
