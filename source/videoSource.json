@@ -2,7 +2,7 @@
   {
     "isEnable": true,
     "isFind": false,
-    "lastUpdate": 1648832539269,
+    "lastUpdate": 1653810201352,
     "listOrder": 0,
     "ruleDetail": {
       "classify": "class.video-tag-icon.0@text",
@@ -13,6 +13,18 @@
       "starring": "class.video-info-actor.1@text",
       "status": "class.video-info-item.3@text",
       "updateTime": ""
+    },
+    "ruleFind": {
+      "classify": "",
+      "detailUrl": "",
+      "director": "",
+      "imageUrl": "",
+      "intro": "",
+      "name": "",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": ""
     },
     "rulePlay": {
       "urlRegex": "",
@@ -39,6 +51,7 @@
       "videoList": "id.mdym@class.col-6"
     },
     "searchUrl": "/vod/search/wd/{{key}}.html",
+    "sourceGroup": "动漫",
     "sourceName": "路漫漫",
     "sourceUrl": "https://www.17skr.com"
   },
@@ -46,7 +59,7 @@
     "findUrl": "{\"url\":\"/index.php/vod/type/id/{{id}}/page/{{page}}.html\",\"classify\":[{\"id\":1,\"name\":\"电影\",\"subId\":[{\"name\":\"分类\",\"value\":[{\"id\":6,\"name\":\"动作片\"},{\"id\":7,\"name\":\"喜剧片\"},{\"id\":8,\"name\":\"爱情片\"},{\"id\":9,\"name\":\"科幻片\"},{\"id\":10,\"name\":\"恐怖片\"},{\"id\":11,\"name\":\"剧情片\"},{\"id\":12,\"name\":\"战争片\"}]}]},{\"id\":2,\"name\":\"电视剧\",\"subId\":[{\"name\":\"分类\",\"value\":[{\"id\":13,\"name\":\"国产剧\"},{\"id\":14,\"name\":\"港台剧\"},{\"id\":15,\"name\":\"日韩剧\"},{\"id\":16,\"name\":\"欧美剧\"}]}]},{\"id\":3,\"name\":\"综艺\"},{\"id\":4,\"name\":\"动漫\"},{\"id\":20,\"name\":\"哔哩哔哩\"}]}",
     "isEnable": true,
     "isFind": true,
-    "lastUpdate": 1652807113209,
+    "lastUpdate": 1654345502952,
     "listOrder": 0,
     "ruleDetail": {
       "classify": "tag.dd.2@text",
@@ -92,10 +105,65 @@
       "starring": "tag.p.2@text##主演：",
       "status": "tag.span.0@text",
       "updateTime": "",
-      "videoList": "class.list_so@dl"
+      "videoList": "class.list_so@tag.dl"
     },
     "searchUrl": "/index.php/vod/search/page/{{page}}/wd/{{key}}.html",
     "sourceName": "天堂影视源",
     "sourceUrl": "http://vipmv.cc"
+  },
+  {
+    "isEnable": true,
+    "isFind": false,
+    "lastUpdate": 1654345437047,
+    "listOrder": 0,
+    "ruleDetail": {
+      "classify": "class.data.0@tag.span.2@text##类型：",
+      "director": "class.data.3@text##导演：",
+      "imageUrl": "class.content_thumb@tag.a@data-original",
+      "intro": "class.desc@text##简介：",
+      "name": "class.hd_tit@text",
+      "starring": "class.data.2@text##主演：",
+      "status": "class.data.1@text##状态：",
+      "updateTime": ""
+    },
+    "ruleFind": {
+      "classify": "",
+      "detailUrl": "",
+      "director": "",
+      "imageUrl": "",
+      "intro": "",
+      "name": "",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": ""
+    },
+    "rulePlay": {
+      "urlRegex": "",
+      "webJs": ""
+    },
+    "rulePlayList": {
+      "lineList": "class.play_source_tab@tag.a",
+      "lineName": "alt",
+      "playList": "class.content_playlist.1",
+      "playUrl": "href",
+      "playUrlList": "tag.a",
+      "playUrlName": "text"
+    },
+    "ruleSearch": {
+      "classify": "tag.h4@tag.span@text",
+      "detailUrl": "tag.a.0@href",
+      "director": "tag.p.1@text##导演：",
+      "imageUrl": "tag.a.0@data-original",
+      "intro": "tag.p.2@text##简介：",
+      "name": "tag.a.0@title",
+      "starring": "tag.p.0@text##主演：",
+      "status": "class.pic_text@text",
+      "updateTime": "",
+      "videoList": "class.vodlist.0@tag.li"
+    },
+    "searchUrl": "/index.php/vod/search.html?wd={{key}}",
+    "sourceName": "法海影视",
+    "sourceUrl": "http://v.fhmv.com"
   }
 ]
