@@ -10,6 +10,7 @@
       "imageUrl": "class.url_img@src",
       "intro": "class.video-info-content@text",
       "name": "class.page-title@text",
+      "playPageUrl": "",
       "starring": "class.video-info-actor.1@text",
       "status": "class.video-info-item.3@text",
       "updateTime": ""
@@ -67,6 +68,7 @@
       "imageUrl": "class.vod_img@tag.img@src",
       "intro": "class.c05@text##剧情介绍：",
       "name": "tag.h1.1@text##(\\([^\\)]+\\))",
+      "playPageUrl": "",
       "starring": "class.zhuyan@text",
       "status": "tag.dd.1@text",
       "updateTime": "tag.dd.0@text"
@@ -122,6 +124,7 @@
       "imageUrl": "class.content_thumb@tag.a@data-original",
       "intro": "class.desc@text##简介：",
       "name": "class.hd_tit@text",
+      "playPageUrl": "",
       "starring": "class.data.2@text##主演：",
       "status": "class.data.1@text##状态：",
       "updateTime": ""
@@ -165,5 +168,285 @@
     "searchUrl": "/index.php/vod/search.html?wd={{key}}",
     "sourceName": "法海影视",
     "sourceUrl": "http://v.fhmv.com"
+  },
+  {
+    "isEnable": true,
+    "isFind": false,
+    "lastUpdate": 1655412964707,
+    "listOrder": 0,
+    "ruleDetail": {
+      "classify": "",
+      "director": "class.hl-full-box@tag.li.3@text##导演：",
+      "imageUrl": "class.hl-full-box@tag.span.0@data-original",
+      "intro": "class.hl-full-box@tag.li.11@text##简介：",
+      "name": "class.hl-dc-title@text",
+      "playPageUrl": "",
+      "starring": "class.hl-full-box@tag.li.2@text##主演：",
+      "status": "class.hl-full-box@tag.li.1@text##状态：",
+      "updateTime": "class.hl-full-box@tag.li.10@text##更新："
+    },
+    "ruleFind": {
+      "classify": "",
+      "detailUrl": "",
+      "director": "",
+      "imageUrl": "",
+      "intro": "",
+      "name": "",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": ""
+    },
+    "rulePlay": {
+      "urlRegex": "",
+      "webJs": ""
+    },
+    "rulePlayList": {
+      "lineList": "class.hl-plays-from@tag.a",
+      "lineName": "alt",
+      "playList": "id.hl-plays-list",
+      "playUrl": "href",
+      "playUrlList": "tag.li@tag.a",
+      "playUrlName": "text"
+    },
+    "ruleSearch": {
+      "classify": "tag.p.0@tag.em@text",
+      "detailUrl": "class.hl-item-thumb@href",
+      "director": "",
+      "imageUrl": "class.hl-item-thumb@data-original",
+      "intro": "tag.p.2@text",
+      "name": "class.hl-item-title@tag.a@text",
+      "starring": "tag.p.1@text",
+      "status": "",
+      "updateTime": "",
+      "videoList": "class.hl-list-wrap@tag.li"
+    },
+    "searchUrl": "/vodsearch/-------------.html?wd={{key}}",
+    "sourceName": "87影院",
+    "sourceUrl": "https://87dyba.com"
+  },
+  {
+    "isEnable": true,
+    "isFind": false,
+    "lastUpdate": 1655414004151,
+    "listOrder": 0,
+    "ruleDetail": {
+      "classify": "",
+      "director": "class.stui-content__detail@tag.p.5@text##导演：",
+      "imageUrl": "class.stui-content__thumb@tag.img@data-original",
+      "intro": "class.detail-content@text",
+      "name": "class.stui-content__detail@tag.h1@text",
+      "playPageUrl": "",
+      "starring": "class.stui-content__detail@tag.p.4@text##主演：",
+      "status": "",
+      "updateTime": "class.stui-content__detail@tag.p.6@text"
+    },
+    "ruleFind": {
+      "classify": "",
+      "detailUrl": "",
+      "director": "",
+      "imageUrl": "",
+      "intro": "",
+      "name": "",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": ""
+    },
+    "rulePlay": {
+      "urlRegex": "",
+      "webJs": ""
+    },
+    "rulePlayList": {
+      "lineList": "class.stui-vodlist__head@tag.h3",
+      "lineName": "text",
+      "playList": "class.stui-content__playlist",
+      "playUrl": "href",
+      "playUrlList": "tag.a",
+      "playUrlName": "text"
+    },
+    "ruleSearch": {
+      "classify": "",
+      "detailUrl": "tag.a@href",
+      "director": "",
+      "imageUrl": "tag.a@data-original",
+      "intro": "",
+      "name": "tag.a@title",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": "class.stui-vodlist@tag.li"
+    },
+    "searchUrl": "/vodsearch/{{key}}-------------.html",
+    "sourceName": "达达龟",
+    "sourceUrl": "https://www.dadagui.com"
+  },
+  {
+    "isEnable": true,
+    "isFind": false,
+    "lastUpdate": 1655428687374,
+    "listOrder": 0,
+    "ruleDetail": {
+      "classify": "",
+      "director": "class.stui-content__detail@tag.p.2@text##导演：",
+      "imageUrl": "class.stui-content__thumb@tag.img@data-original",
+      "intro": "class.desc@text##简介：",
+      "name": "tag.h1@text",
+      "playPageUrl": "",
+      "starring": "class.stui-content__detail@tag.p.1@text##主演：",
+      "status": "",
+      "updateTime": "class.stui-content__detail@tag.p.3@text"
+    },
+    "ruleFind": {
+      "classify": "",
+      "detailUrl": "",
+      "director": "",
+      "imageUrl": "",
+      "intro": "",
+      "name": "",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": ""
+    },
+    "rulePlay": {
+      "urlRegex": "",
+      "webJs": ""
+    },
+    "rulePlayList": {
+      "lineList": "class.playlist@tag.h3",
+      "lineName": "text##友站资源",
+      "playList": "class.stui-content__playlist",
+      "playUrl": "href",
+      "playUrlList": "tag.a",
+      "playUrlName": "text"
+    },
+    "ruleSearch": {
+      "classify": "",
+      "detailUrl": "tag.a.0@href",
+      "director": "tag.p.0@text##导演：",
+      "imageUrl": "tag.a.0@data-original",
+      "intro": "",
+      "name": "tag.h3@text",
+      "starring": "tag.p.1@text##主演：",
+      "status": "",
+      "updateTime": "",
+      "videoList": "class.stui-vodlist__media@tag.li"
+    },
+    "searchUrl": "/search/?wd={{key}}",
+    "sourceName": "双十电影",
+    "sourceUrl": "https://www.1010dy.vip"
+  },
+  {
+    "isEnable": true,
+    "isFind": false,
+    "lastUpdate": 1655462462656,
+    "listOrder": 0,
+    "ruleDetail": {
+      "classify": "class.stui-content__detail@tag.p.0@tag.a.1@text",
+      "director": "class.stui-content__detail@tag.p.3@text##导演：",
+      "imageUrl": "class.stui-content__thumb@tag.img@data-original",
+      "intro": "class.stui-content__desc@text",
+      "name": "class.stui-content__detail@tag.h3@text",
+      "playPageUrl": "class.btn-primary@href",
+      "starring": "class.stui-content__detail@tag.p.2@text##主演：",
+      "status": "class.stui-content__detail@tag.p.1@text##状态：",
+      "updateTime": ""
+    },
+    "ruleFind": {
+      "classify": "",
+      "detailUrl": "",
+      "director": "",
+      "imageUrl": "",
+      "intro": "",
+      "name": "",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": ""
+    },
+    "rulePlay": {
+      "urlRegex": "",
+      "webJs": ""
+    },
+    "rulePlayList": {
+      "lineList": "class.t-ul@tag.li",
+      "lineName": "text",
+      "playList": "class.stui-content__playlist",
+      "playUrl": "href",
+      "playUrlList": "tag.a",
+      "playUrlName": "text"
+    },
+    "ruleSearch": {
+      "classify": "",
+      "detailUrl": "tag.a@href",
+      "director": "",
+      "imageUrl": "tag.a@data-original",
+      "intro": "",
+      "name": "tag.h4@text",
+      "starring": "",
+      "status": "tag.span.1@text",
+      "updateTime": "",
+      "videoList": "class.stui-vodlist@tag.li"
+    },
+    "searchUrl": "/index.php/vod/search.html?wd={{key}}",
+    "sourceName": "小强迷",
+    "sourceUrl": "https://www.xqmi.top"
+  },
+  {
+    "isEnable": true,
+    "isFind": false,
+    "lastUpdate": 1655425434244,
+    "listOrder": 0,
+    "ruleDetail": {
+      "classify": "class.moviedteail_list@tag.li.0@text##类型：",
+      "director": "",
+      "imageUrl": "class.dyimg@tag.img@src",
+      "intro": "class.yp_context@tag.p.0@text",
+      "name": "tag.h1.0@text",
+      "playPageUrl": "",
+      "starring": "",
+      "status": "",
+      "updateTime": ""
+    },
+    "ruleFind": {
+      "classify": "",
+      "detailUrl": "",
+      "director": "",
+      "imageUrl": "",
+      "intro": "",
+      "name": "",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": ""
+    },
+    "rulePlay": {
+      "urlRegex": "",
+      "webJs": ""
+    },
+    "rulePlayList": {
+      "lineList": "class.ypxingq_t.1@tag.span",
+      "lineName": "text",
+      "playList": "class.paly_list_btn",
+      "playUrl": "href",
+      "playUrlList": "tag.a",
+      "playUrlName": "text"
+    },
+    "ruleSearch": {
+      "classify": "tag.p.1@text",
+      "detailUrl": "tag.a.0@href",
+      "director": "",
+      "imageUrl": "tag.img@data-original",
+      "intro": "",
+      "name": "tag.h3@text",
+      "starring": "class.inzhuy@text##主演：",
+      "status": "tag.span.0@text",
+      "updateTime": "",
+      "videoList": "class.search_list@tag.li"
+    },
+    "searchUrl": "/xssearch?q={{key}}",
+    "sourceName": "厂长资源",
+    "sourceUrl": "https://www.czspp.com"
   }
 ]
