@@ -1,5 +1,5 @@
 {
     "versionName":"1.0.286.220625",
     "updateDescription":"新增：\n1、新增观看历史下拉检查剧集是否有更新\n2、通用设置里新增自动检查更新\n3、视频源详情规则新增playPageUrl规则\n4、详情页增加换源功能\n5、视频源增加启用和禁用所选功能\n优化：\n1、优化搜索\n2、一些界面UI的视觉优化\n3、优化播放列表和播放线路的匹配\n4、精简优化代码和库\n修复：\n1、修复已知Bug",
-    "downloadUrl":"https://188369219.github.io/update/ienjoy10286.apk"
+    "downloadUrl":"https://github.com/188369219/ienjoy/releases/download/1.0.286.220625/ienjoy10286.apk"
 }
