@@ -60,7 +60,7 @@
     "findUrl": "{\"url\":\"/index.php/vod/type/id/{{id}}/page/{{page}}.html\",\"classify\":[{\"id\":1,\"name\":\"电影\",\"subId\":[{\"name\":\"分类\",\"value\":[{\"id\":6,\"name\":\"动作片\"},{\"id\":7,\"name\":\"喜剧片\"},{\"id\":8,\"name\":\"爱情片\"},{\"id\":9,\"name\":\"科幻片\"},{\"id\":10,\"name\":\"恐怖片\"},{\"id\":11,\"name\":\"剧情片\"},{\"id\":12,\"name\":\"战争片\"}]}]},{\"id\":2,\"name\":\"电视剧\",\"subId\":[{\"name\":\"分类\",\"value\":[{\"id\":13,\"name\":\"国产剧\"},{\"id\":14,\"name\":\"港台剧\"},{\"id\":15,\"name\":\"日韩剧\"},{\"id\":16,\"name\":\"欧美剧\"}]}]},{\"id\":3,\"name\":\"综艺\"},{\"id\":4,\"name\":\"动漫\"},{\"id\":20,\"name\":\"哔哩哔哩\"}]}",
     "isEnable": true,
     "isFind": true,
-    "lastUpdate": 1654345502952,
+    "lastUpdate": 1657319634593,
     "listOrder": 0,
     "ruleDetail": {
       "classify": "tag.dd.2@text",
@@ -86,7 +86,7 @@
       "videoList": "class.list_su@tag.li"
     },
     "rulePlay": {
-      "urlRegex": "(http[s]?):##https://jx.parwix.com:4433/player/?url=$1",
+      "urlRegex": "(http[s]?):##https://jx.bozrc.com:4433/player/?url=$1",
       "webJs": "player_aaaa@(http[s]?):[^\\s]+(?=\",\"url_next)"
     },
     "rulePlayList": {
