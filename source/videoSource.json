@@ -448,5 +448,61 @@
     "searchUrl": "/xssearch?q={{key}}",
     "sourceName": "厂长资源",
     "sourceUrl": "https://www.czspp.com"
+  },
+  {
+    "isEnable": true,
+    "isFind": false,
+    "lastUpdate": 1657451515952,
+    "listOrder": 0,
+    "ruleDetail": {
+      "classify": "",
+      "director": "class.module-info-item-content.0@text",
+      "imageUrl": "class.module-info-poster@tag.img@data-original",
+      "intro": "class.module-info-introduction-content@text",
+      "name": "tag.h1@text",
+      "playPageUrl": "",
+      "starring": "class.module-info-item-content.1@text",
+      "status": "class.module-info-item-content.3@text",
+      "updateTime": "class.module-info-item-content.2@text"
+    },
+    "ruleFind": {
+      "classify": "",
+      "detailUrl": "",
+      "director": "",
+      "imageUrl": "",
+      "intro": "",
+      "name": "",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": ""
+    },
+    "rulePlay": {
+      "urlRegex": "",
+      "webJs": ""
+    },
+    "rulePlayList": {
+      "lineList": "class.module-tab-item",
+      "lineName": "data-dropdown-value",
+      "playList": "id.panel1",
+      "playUrl": "href",
+      "playUrlList": "tag.a",
+      "playUrlName": "text"
+    },
+    "ruleSearch": {
+      "classify": "",
+      "detailUrl": "class.module-card-item-poster@href",
+      "director": "",
+      "imageUrl": "tag.img@data-original",
+      "intro": "class.module-info-item-content.1@text",
+      "name": "class.module-card-item-title@text",
+      "starring": "",
+      "status": "",
+      "updateTime": "",
+      "videoList": "class.module-card-item"
+    },
+    "searchUrl": "/search/-------------.html?wd={{key}}",
+    "sourceName": "VOFLIX",
+    "sourceUrl": "https://www.voflix.com"
   }
 ]
